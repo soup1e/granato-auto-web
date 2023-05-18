@@ -12,7 +12,9 @@ export default function Nav() {
   return (
     <nav className="flex justify-between flex-wrap p-4 gap-5 lg:fixed lg:bg-background w-full">
       <div className="flex items-center flex-shrink-0 text-transparent bg-pink-400 bg-clip-text">
-        <Image src="/logo.png" alt="logo" width="100" height="100" />
+        <Link href="/">
+          <Image src="/logo.png" alt="logo" width="100" height="100" />
+        </Link>
       </div>
       <div className="block lg:hidden">
         <button
