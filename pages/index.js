@@ -1,5 +1,9 @@
+import Contact from "@/components/Contact";
 import Layout from "@/components/Layout";
+import Pricing from "@/components/Pricing";
+import Testimonials from "@/components/Testimonials";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -21,6 +25,43 @@ export default function Home() {
           </h1>
         </div>
       </div>
+
+      <div className="flex justify-center isolate overflow-hidden py-24 sm:py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl lg:mx-0">
+            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+              Our Promise
+            </h2>
+            <p className="mt-6 text-lg leading-8 text-gray-300">
+              Cleaning is our thing! Customers come for our excellent service
+              and leave feeling like part of the Granato family. One thing is
+              for sure- your vehicle will never look as good as it does after
+              leaving our shop! We never compromise on quality, even if it means
+              taking extra time, and we always offer availability that aligns
+              with our clients&apos; schedules. Honesty is our foundation for
+              providing exceptional customer service, Rest assured, this is our
+              commitment to you.
+            </p>
+          </div>
+          <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
+            <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+              <Link href="/our-work">
+                Our Work <span aria-hidden="true">&rarr;</span>
+              </Link>
+              <Link href="/about">
+                About us <span aria-hidden="true">&rarr;</span>
+              </Link>
+              <Link href="/contact">
+                Contact <span aria-hidden="true">&rarr;</span>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <Testimonials />
+      <Pricing />
+      <Contact />
     </Layout>
   );
 }

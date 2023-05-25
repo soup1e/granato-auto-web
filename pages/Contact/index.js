@@ -43,7 +43,7 @@ export default function Contact() {
       )}
       <div className="main flex flex-col justify-center items-center gap-5 lg:pt-64">
         <div className="h-screen flex flex-col justify-start items-center">
-          <div className="ring ring-gray-400 rounded-lg p-4">
+          <div className="ring ring-gray-400 rounded-lg p-4 max-w-screen-xl">
             <form ref={form} onSubmit={sendEmail}>
               <div className="mb-4">
                 <label className="block font-bold mb-2 text-gray-50">

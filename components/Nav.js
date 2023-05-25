@@ -10,82 +10,64 @@ export default function Nav() {
   };
 
   return (
-    <nav className="flex justify-between flex-wrap p-4 gap-5 lg:fixed lg:bg-background w-full">
-      <div className="flex items-center flex-shrink-0 text-transparent bg-pink-400 bg-clip-text">
-        <Link href="/">
+    <nav className="bg-white border-gray-200 dark:bg-gray-900">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <Link href="/" className="flex items-center">
           <Image src="/logo.png" alt="logo" width="100" height="100" />
+          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            Granato Auto Detailing
+          </span>
         </Link>
-      </div>
-      <div className="block lg:hidden">
         <button
-          className="flex items-center px-2.5 py-2.5 border rounded text-gray-50 border-white hover:text-purple-00 hover:border-indigo-700"
+          className="flex items-center px-2.5 py-2.5 border rounded text-gray-50 border-white hover:text-purple-00 hover:border-indigo-700 md:hidden"
           onClick={handleClick}
         >
           <svg
-            className="text-white h-3 w-3 overflow-visible"
-            viewBox="0 0 100 100"
+            className="w-6 h-6"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <rect
-              className={`rect-1 ${
-                isActive
-                  ? "transition-all duration-1000 rotate-360 ease-in-out origin-center"
-                  : "transition-all duration-1000 rotate-180 ease-in-out origin-center"
-              }`}
-              fill="white"
-              y="0"
-              width="100"
-              height="20"
-            ></rect>
-            <rect
-              className={`rect-2 ${
-                isActive
-                  ? "transition-all duration-1000 rotate-90 ease-in-out origin-center"
-                  : "transition-all duration-1000 rotate-180 ease-in-out origin-center"
-              }`}
-              fill="white"
-              y="80"
-              width="100"
-              height="20"
-            ></rect>
-            <title>Menu</title>
+            <path
+              fillRule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clipRule="evenodd"
+            ></path>
           </svg>
         </button>
-      </div>
-      <div
-        className={
-          isActive
-            ? "w-full block flex-grow lg:flex lg:items-center lg:w-auto"
-            : "hidden lg:visible w-full flex-grow lg:flex lg:items-center lg:w-auto"
-        }
-      >
-        <div className="text-m lg:flex-grow ">
-          <Link
-            href="/About-Us"
-            className="block mt-4 lg:inline-block lg:mt-0 text-gray-50 hover:text-indigo-400 hover:transition-all duration-700 mr-4"
-          >
-            about us
-          </Link>
-
-          <Link
-            href="/Our-Work"
-            className="block mt-4 lg:inline-block lg:mt-0 text-gray-50 hover:text-indigo-400 hover:transition-all duration-700 mr-4"
-          >
-            our work
-          </Link>
-
-          <Link
-            href="/Pricing"
-            className="block mt-4 lg:inline-block lg:mt-0 text-gray-50 hover:text-indigo-400 hover:transition-all duration-700 mr-4"
-          >
-            pricing
-          </Link>
-
-          <Link
-            href="/Contact"
-            className="block mt-4 lg:inline-block lg:mt-0 text-gray-50 hover:text-indigo-400 hover:transition-all duration-700 mr-4"
-          >
-            contact
-          </Link>
+        <div
+          className={
+            isActive
+              ? "w-full block flex-grow lg:flex lg:items-center lg:w-auto"
+              : "hidden w-full md:block md:w-auto"
+          }
+        >
+          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+              <Link
+                href="/"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-700 md:p-0 dark:text-white md:dark:hover:text-purple-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/our-work"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-700 md:p-0 dark:text-white md:dark:hover:text-purple-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              >
+                Our Work
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/contact"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-700 md:p-0 dark:text-white md:dark:hover:text-purple-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              >
+                Contact
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>

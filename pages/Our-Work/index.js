@@ -1,9 +1,8 @@
 import Layout from "@/components/Layout";
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <Layout title="home">
+    <Layout title="our-work">
       <div className="flex justify-center items-center h-screen">
         <div className="flex flex-col items-start gap-3">
           <div className="flex p-5 ring ring-gray-50 rounded-lg lg:flex-row lg:items-end gap-3 flex-col">
