@@ -5,7 +5,7 @@ import ScrollDownButton from "@/components/ScrollDownSvg";
 import Testimonials from "@/components/Testimonials";
 import Image from "next/image";
 import Link from "next/link";
-import bgImage from "../public/cars/IMG_6387.JPG";
+import bgImage from "../public/IMG_6387.jpg";
 
 export default function Home() {
   return (
