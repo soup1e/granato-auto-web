@@ -64,6 +64,7 @@ export default function Footer() {
               href="https://www.facebook.com/micael.granato.3"
             >
               <svg
+                className="hover:fill-indigo-500 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-200"
                 xmlns="http://www.w3.org/2000/svg"
                 width="52"
                 height="52"
@@ -84,6 +85,7 @@ export default function Footer() {
               href="https://www.facebook.com/micael.granato.3"
             >
               <svg
+                className="hover:fill-indigo-500 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-200"
                 xmlns="http://www.w3.org/2000/svg"
                 width="52"
                 height="52"
