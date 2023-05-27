@@ -1,18 +1,23 @@
 import Contact from "@/components/Contact";
 import Layout from "@/components/Layout";
 import Pricing from "@/components/Pricing";
+import ScrollDownButton from "@/components/ScrollDownSvg";
 import Testimonials from "@/components/Testimonials";
 import Image from "next/image";
 import Link from "next/link";
+import bgImage from "../public/cars/IMG_6387.JPG";
 
 export default function Home() {
   return (
     <Layout title="home">
       <div
-        className="flex flex-col justify-center items-center h-ninetyVH"
-        style={{ backgroundImage: `url('public/logo.png')` }}
+        className="flex flex-col justify-center h-screen items-center bg-center bg-cover bg-no-repeat"
+        style={{
+          backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, .90), rgba(0, 0, 0, 0.5)), url(${bgImage.src})`,
+          width: "100%",
+        }}
       >
-        <div className="ring ring-gray-50 rounded-lg flex flex-col justify-center items-center ">
+        <div className="md:ring ring-gray-50 rounded-lg flex flex-col justify-center items-center ">
           <Image
             src="/logo.png"
             alt="logo"
@@ -25,6 +30,8 @@ export default function Home() {
           </h1>
         </div>
       </div>
+
+      <ScrollDownButton />
 
       <div className="flex justify-center isolate overflow-hidden py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">

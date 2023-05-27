@@ -2,11 +2,9 @@ import React from "react";
 
 export default function Pricing() {
   return (
-    <section className="h-ninetyVH container mx-auto">
-      <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative">
-        <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-          Our services
-        </h1>
+    <section className="h-full">
+      <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">
+        Our services
       </div>
       <div className="flex justify-center items-center md:flex-row gap-5 flex-col">
         <div className="w-full max-w-sm p-4 rounded-lg shadow sm:p-8 bg-gray-800 border-gray-700">
@@ -101,7 +99,7 @@ export default function Pricing() {
                 ></path>
               </svg>
               <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
-                Deep Exterior cleaning
+                Snow Foam Rinse
               </span>
             </li>
             <li className="flex space-x-3">
@@ -137,7 +135,7 @@ export default function Pricing() {
                 ></path>
               </svg>
               <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
-                Example
+                Tire Shine
               </span>
             </li>
           </ul>
@@ -168,7 +166,7 @@ export default function Pricing() {
                 ></path>
               </svg>
               <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
-                Full Deep cleaning
+                Interior package
               </span>
             </li>
             <li className="flex space-x-3">
@@ -186,7 +184,7 @@ export default function Pricing() {
                 ></path>
               </svg>
               <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
-                Waxing
+                Exterior package
               </span>
             </li>
             <li className="flex space-x-3">
@@ -204,7 +202,7 @@ export default function Pricing() {
                 ></path>
               </svg>
               <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
-                Example
+                Clay bar clean
               </span>
             </li>
           </ul>

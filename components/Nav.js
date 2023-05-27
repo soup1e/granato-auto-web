@@ -12,9 +12,11 @@ export default function Nav() {
   return (
     <nav className="bg-white border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <Link href="/" className="flex items-center">
-          <Image src="/logo.png" alt="logo" width="100" height="100" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+        <Link href="/" className="flex items-center ">
+          <div className="hidden w-full md:block md:w-auto">
+            <Image src="/logo.png" alt="logo" width="100" height="100" />
+          </div>
+          <span className="self-center md:text-2xl font-semibold whitespace-nowrap dark:text-white">
             Granato Auto Detailing
           </span>
         </Link>
