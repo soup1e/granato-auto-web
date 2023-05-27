@@ -25,7 +25,7 @@ export default function Home() {
             height="400"
             className="mb-1"
           />
-          <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-indigo-500 to-pink-500 p-5">
+          <h1 className="text-5xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-tr from-indigo-500 to-pink-500 p-5">
             Granato&apos;s Auto Detailing
           </h1>
         </div>
