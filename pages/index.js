@@ -21,8 +21,8 @@ export default function Home() {
           <Image
             src="/logo.png"
             alt="logo"
-            width={400}
-            height={400}
+            width="400"
+            height="400"
             className="mb-1"
           />
           <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-indigo-500 to-pink-500 p-5">
@@ -43,7 +43,7 @@ export default function Home() {
               Cleaning is our thing! Customers come for our excellent service
               and leave feeling like part of the Granato family. One thing is
               for sure- your vehicle will never look as good as it does after
-              leaving our shop! We never compromise on quality, even if it means
+              leaving our lot! We never compromise on quality, even if it means
               taking extra time, and we always offer availability that aligns
               with our clients&apos; schedules. Honesty is our foundation for
               providing exceptional customer service, Rest assured, this is our
@@ -52,12 +52,12 @@ export default function Home() {
           </div>
           <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
-              <Link href="/our-work">
+              {/* <Link href="/our-work">
                 Our Work <span aria-hidden="true">&rarr;</span>
               </Link>
               <Link href="/about">
                 About us <span aria-hidden="true">&rarr;</span>
-              </Link>
+              </Link> */}
               <Link href="/contact">
                 Contact <span aria-hidden="true">&rarr;</span>
               </Link>
