@@ -5,7 +5,9 @@ import Contact from "@/components/Contact";
 export default function ContactPage() {
   return (
     <Layout title="contact">
-      <Contact />
+      <div className="bg-gray-900">
+        <Contact />
+      </div>
     </Layout>
   );
 }
