@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="bg-gray-950">
       <div className="mx-auto w-full max-w-screen-xl p-2 py-6 lg:py-4">
         <div className="md:flex md:justify-between items-center">
           <div className="flex flex-col md:justify-between gap-x-4 items-center">
@@ -13,7 +13,7 @@ export default function Footer() {
             <span className="text-gray-300 text-xl">630-512-1295</span>
             <span className="text-gray-300 text-xl">granatoauto@gmail.com</span>
           </div>
-          <div className="flex mt-4 space-x-6 justify-center sm:mt-0">
+          <div className="flex mt-4 space-x-6 justify-center sm:mt-0 hover:fill-indigo-500 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-200">
             <Link
               target="_blank"
               rel="noopener noreferrer"
@@ -26,7 +26,7 @@ export default function Footer() {
                 height="52"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 strokeWidth="1"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -49,7 +49,7 @@ export default function Footer() {
                 height="52"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 strokeWidth="1"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -70,7 +70,7 @@ export default function Footer() {
                 height="52"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 strokeWidth="1"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -91,11 +91,10 @@ export default function Footer() {
                 height="52"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 strokeWidth="1"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="feather feather-linkedin"
               >
                 <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
                 <rect x="2" y="9" width="4" height="12"></rect>

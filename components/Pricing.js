@@ -8,10 +8,10 @@ export default function Pricing() {
       </div>
       <div className="flex justify-center items-center md:flex-row gap-5 flex-col">
         <div className="w-full max-w-sm p-4 rounded-lg shadow sm:p-8 bg-gray-800 border-gray-700">
-          <h5 className="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">
+          <h5 className="mb-4 text-xl font-medium  text-gray-400">
             Interior plan
           </h5>
-          <div className="flex items-baseline text-gray-900 dark:text-white">
+          <div className="flex items-baseline  text-white">
             <span className="text-3xl font-semibold">$</span>
             <span className="text-5xl font-extrabold tracking-tight">125</span>
             <span className="text-3xl font-semibold">+</span>
@@ -20,7 +20,7 @@ export default function Pricing() {
             <li className="flex space-x-3">
               <svg
                 aria-hidden="true"
-                className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-blue-500"
+                className="flex-shrink-0 w-5 h-5  text-blue-500"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -31,14 +31,14 @@ export default function Pricing() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
+              <span className="text-base font-normal leading-tight text-gray-400">
                 Vacuuming
               </span>
             </li>
             <li className="flex space-x-3">
               <svg
                 aria-hidden="true"
-                className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-blue-500"
+                className="flex-shrink-0 w-5 h-5  text-blue-500"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -49,14 +49,14 @@ export default function Pricing() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
+              <span className="text-base font-normal leading-tight text-gray-400">
                 Leather Treatment
               </span>
             </li>
             <li className="flex space-x-3">
               <svg
                 aria-hidden="true"
-                className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-blue-500"
+                className="flex-shrink-0 w-5 h-5 text-blue-500"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@ export default function Pricing() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
+              <span className="text-base font-normal leading-tight text-gray-400">
                 Deep Clean
               </span>
             </li>
@@ -75,10 +75,10 @@ export default function Pricing() {
         </div>
 
         <div className="w-full max-w-sm p-4 rounded-lg shadow sm:p-8 bg-gray-800 border-gray-700">
-          <h5 className="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">
+          <h5 className="mb-4 text-xl font-medium text-gray-400">
             Exterior plan
           </h5>
-          <div className="flex items-baseline text-gray-900 dark:text-white">
+          <div className="flex items-baseline text-white">
             <span className="text-3xl font-semibold">$</span>
             <span className="text-5xl font-extrabold tracking-tight">125</span>
             <span className="text-3xl font-semibold">+</span>
@@ -87,7 +87,7 @@ export default function Pricing() {
             <li className="flex space-x-3">
               <svg
                 aria-hidden="true"
-                className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-blue-500"
+                className="flex-shrink-0 w-5 h-5 text-blue-500"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -98,14 +98,14 @@ export default function Pricing() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
+              <span className="text-base font-normal leading-tight text-gray-400">
                 Snow Foam Rinse
               </span>
             </li>
             <li className="flex space-x-3">
               <svg
                 aria-hidden="true"
-                className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-blue-500"
+                className="flex-shrink-0 w-5 h-5 text-blue-500"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -116,14 +116,14 @@ export default function Pricing() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
+              <span className="text-base font-normal leading-tight text-gray-400">
                 Waxing
               </span>
             </li>
             <li className="flex space-x-3">
               <svg
                 aria-hidden="true"
-                className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-blue-500"
+                className="flex-shrink-0 w-5 h-5 text-blue-500"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -134,7 +134,7 @@ export default function Pricing() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
+              <span className="text-base font-normal leading-tight text-gray-400">
                 Tire Shine
               </span>
             </li>
@@ -142,10 +142,10 @@ export default function Pricing() {
         </div>
 
         <div className="w-full max-w-sm p-4 rounded-lg shadow sm:p-8 bg-gray-800 border-gray-700">
-          <h5 className="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">
+          <h5 className="mb-4 text-xl font-medium text-gray-400">
             Full Detail plan
           </h5>
-          <div className="flex items-baseline text-gray-900 dark:text-white">
+          <div className="flex items-baseline text-white">
             <span className="text-3xl font-semibold">$</span>
             <span className="text-5xl font-extrabold tracking-tight">250</span>
             <span className="text-3xl font-semibold">+</span>
@@ -154,7 +154,7 @@ export default function Pricing() {
             <li className="flex space-x-3">
               <svg
                 aria-hidden="true"
-                className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-blue-500"
+                className="flex-shrink-0 w-5 h-5 text-blue-500"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -165,14 +165,14 @@ export default function Pricing() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
+              <span className="text-base font-normal leading-tight text-gray-400">
                 Interior package
               </span>
             </li>
             <li className="flex space-x-3">
               <svg
                 aria-hidden="true"
-                className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-blue-500"
+                className="flex-shrink-0 w-5 h-5 text-blue-500"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -183,14 +183,14 @@ export default function Pricing() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
+              <span className="text-base font-normal leading-tight text-gray-400">
                 Exterior package
               </span>
             </li>
             <li className="flex space-x-3">
               <svg
                 aria-hidden="true"
-                className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-blue-500"
+                className="flex-shrink-0 w-5 h-5 text-blue-500"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -201,7 +201,7 @@ export default function Pricing() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">
+              <span className="text-base font-normal leading-tight text-gray-400">
                 Clay bar clean
               </span>
             </li>
