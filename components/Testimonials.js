@@ -28,7 +28,7 @@ export default function Testimonials() {
             </span>
           </figcaption>
         </figure>
-        <figure className="flex flex-col items-center justify-center p-8 text-center border-b rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r bg-gray-800 border-gray-700">
+        <figure className="flex flex-col items-center justify-center p-8 text-center border-b rounded-t-lg md:rounded-t-none md:rounded-tr-lg md:border-r bg-gray-800 border-gray-700">
           <blockquote className="max-w-2xl mx-auto mb-4 lg:mb-8 text-gray-400">
             <h3 className="text-lg font-semibold text-white">
               I showed my neighbor my car today.
@@ -50,7 +50,7 @@ export default function Testimonials() {
             </span>
           </figcaption>
         </figure>
-        <figure className="flex flex-col items-center justify-center p-8 text-center border-b rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r bg-gray-800 border-gray-700">
+        <figure className="flex flex-col items-center justify-center p-8 text-center border-b rounded-t-lg md:rounded-t-none md:rounded-bl-lg md:border-r bg-gray-800 border-gray-700">
           <blockquote className="max-w-2xl mx-auto mb-4 lg:mb-8 text-gray-400">
             <h3 className="text-lg font-semibold text-white">
               Thanks again for your hard work.
@@ -72,7 +72,7 @@ export default function Testimonials() {
             </span>
           </figcaption>
         </figure>
-        <figure className="flex flex-col items-center justify-center p-8 text-center border-b rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r bg-gray-800 border-gray-700">
+        <figure className="flex flex-col items-center justify-center p-8 text-center border-b sm:rounded-b-lg md:rounded-b-none md:rounded-br-lg md:border-r bg-gray-800 border-gray-700">
           <blockquote className="max-w-2xl mx-auto mb-4lg:mb-8 text-gray-400">
             <h3 className="text-lg font-semibold text-white">
               My Car Shines Like Never Before
