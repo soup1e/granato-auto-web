@@ -75,7 +75,7 @@ export default function Testimonials() {
         <figure className="flex flex-col items-center justify-center p-8 text-center border-b rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r bg-gray-800 border-gray-700">
           <blockquote className="max-w-2xl mx-auto mb-4lg:mb-8 text-gray-400">
             <h3 className="text-lg font-semibold text-white">
-              My Friend&apos;s Car Shines Like Never Before
+              My Car Shines Like Never Before
             </h3>
             <p className="my-4">
               &quot;Thank you for the exceptional job you did detailing my
